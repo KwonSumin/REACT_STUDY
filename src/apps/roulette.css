@@ -1,0 +1,26 @@
+.ex-dice-box {
+    border : 1px solid black;
+    height : 50px;
+    width  : 50px;
+    overflow: hidden;
+}
+.ex-dice {
+    position: absolute;
+    border : 1px solid black;
+    height : 50px;
+    width  : 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 300%;
+    color : rgba(0, 0, 0, 0);
+}
+.ex-dice-cur {
+    position: absolute;
+    border : 1px solid black;
+    height : 50px;
+    width  : 50px;
+    display: inline-block;
+    text-align: center;
+    line-height: 300%;
+    color : rgba(0, 0, 0, 1.0);
+}
